@@ -25,7 +25,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"w3ll/app"
+	"github.com/GACWR/w3ll-dev-test/app"
 )
 
 func initRootCmd(

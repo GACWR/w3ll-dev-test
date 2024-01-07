@@ -119,7 +119,7 @@ func init() {
 	proto.RegisterType((*QueryParamsResponse)(nil), "w3ll.will.QueryParamsResponse")
 }
 
-func init() { proto.RegisterFile("w3ll/will/query.proto", fileDescriptor_bd945ebb0afb9e6a) }
+func init() { proto.RegisterFile("github.com/GACWR/w3ll-dev-test/will/query.proto", fileDescriptor_bd945ebb0afb9e6a) }
 
 var fileDescriptor_bd945ebb0afb9e6a = []byte{
 	// 292 bytes of a gzipped FileDescriptorProto
@@ -223,7 +223,7 @@ var _Query_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "w3ll/will/query.proto",
+	Metadata: "github.com/GACWR/w3ll-dev-test/will/query.proto",
 }
 
 func (m *QueryParamsRequest) Marshal() (dAtA []byte, err error) {

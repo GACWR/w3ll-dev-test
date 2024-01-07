@@ -7,7 +7,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/testutil/network"
 	"github.com/stretchr/testify/require"
 
-	"w3ll/app"
+	"github.com/GACWR/w3ll-dev-test/app"
 )
 
 type (

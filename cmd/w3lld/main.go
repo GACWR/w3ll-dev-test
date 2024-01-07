@@ -6,8 +6,8 @@ import (
 
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 
-	"w3ll/app"
-	"w3ll/cmd/w3lld/cmd"
+	"github.com/GACWR/w3ll-dev-test/app"
+	"github.com/GACWR/w3ll-dev-test/cmd/w3lld/cmd"
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/runtime"
 
-	"w3ll/x/will/types"
+	"github.com/GACWR/w3ll-dev-test/x/will/types"
 )
 
 // GetParams get all parameters as types.Params

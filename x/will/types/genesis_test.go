@@ -3,8 +3,8 @@ package types_test
 import (
 	"testing"
 
+	"github.com/GACWR/w3ll-dev-test/x/will/types"
 	"github.com/stretchr/testify/require"
-	"w3ll/x/will/types"
 )
 
 func TestGenesisState_Validate(t *testing.T) {

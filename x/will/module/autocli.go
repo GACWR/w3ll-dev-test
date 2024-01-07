@@ -3,7 +3,7 @@ package will
 import (
 	autocliv1 "cosmossdk.io/api/cosmos/autocli/v1"
 
-	modulev1 "w3ll/api/w3ll/will"
+	modulev1 "github.com/GACWR/w3ll-dev-test/api/w3ll/will"
 )
 
 // AutoCLIOptions implements the autocli.HasAutoCLIConfig interface.

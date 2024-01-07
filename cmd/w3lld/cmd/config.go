@@ -5,7 +5,7 @@ import (
 	serverconfig "github.com/cosmos/cosmos-sdk/server/config"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"w3ll/app"
+	"github.com/GACWR/w3ll-dev-test/app"
 )
 
 func initSDKConfig() {

@@ -109,5 +109,5 @@ var Msg_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "w3ll/will/tx.proto",
+	Metadata: "github.com/GACWR/w3ll-dev-test/will/tx.proto",
 }

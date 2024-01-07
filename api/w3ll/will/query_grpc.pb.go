@@ -107,5 +107,5 @@ var Query_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "w3ll/will/query.proto",
+	Metadata: "github.com/GACWR/w3ll-dev-test/will/query.proto",
 }

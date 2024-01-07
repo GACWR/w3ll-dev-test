@@ -8,7 +8,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"w3ll/x/will/types"
+	"github.com/GACWR/w3ll-dev-test/x/will/types"
 )
 
 type (

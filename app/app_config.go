@@ -33,6 +33,9 @@ import (
 	_ "cosmossdk.io/x/feegrant/module" // import for side-effects
 	_ "cosmossdk.io/x/upgrade"         // import for side-effects
 	upgradetypes "cosmossdk.io/x/upgrade/types"
+	willmodulev1 "github.com/GACWR/w3ll-dev-test/api/w3ll/will/module"
+	_ "github.com/GACWR/w3ll-dev-test/x/will/module" // import for side-effects
+	willmoduletypes "github.com/GACWR/w3ll-dev-test/x/will/types"
 	"github.com/cosmos/cosmos-sdk/runtime"
 	_ "github.com/cosmos/cosmos-sdk/x/auth/tx/config" // import for side-effects
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
@@ -70,9 +73,6 @@ import (
 	ibctransfertypes "github.com/cosmos/ibc-go/v8/modules/apps/transfer/types"
 	ibcexported "github.com/cosmos/ibc-go/v8/modules/core/exported"
 	"google.golang.org/protobuf/types/known/durationpb"
-	willmodulev1 "w3ll/api/w3ll/will/module"
-	_ "w3ll/x/will/module" // import for side-effects
-	willmoduletypes "w3ll/x/will/types"
 	// this line is used by starport scaffolding # stargate/app/moduleImport
 )
 

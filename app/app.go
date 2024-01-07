@@ -53,10 +53,10 @@ import (
 	ibctransferkeeper "github.com/cosmos/ibc-go/v8/modules/apps/transfer/keeper"
 	ibckeeper "github.com/cosmos/ibc-go/v8/modules/core/keeper"
 
-	willmodulekeeper "w3ll/x/will/keeper"
+	willmodulekeeper "github.com/GACWR/w3ll-dev-test/x/will/keeper"
 	// this line is used by starport scaffolding # stargate/app/moduleImport
 
-	"w3ll/docs"
+	"github.com/GACWR/w3ll-dev-test/docs"
 )
 
 const (

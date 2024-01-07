@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	keepertest "w3ll/testutil/keeper"
-	"w3ll/x/will/keeper"
-	"w3ll/x/will/types"
+	keepertest "github.com/GACWR/w3ll-dev-test/testutil/keeper"
+	"github.com/GACWR/w3ll-dev-test/x/will/keeper"
+	"github.com/GACWR/w3ll-dev-test/x/will/types"
 )
 
 func setupMsgServer(t testing.TB) (keeper.Keeper, types.MsgServer, context.Context) {

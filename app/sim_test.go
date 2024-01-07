@@ -31,7 +31,7 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 
-	"w3ll/app"
+	"github.com/GACWR/w3ll-dev-test/app"
 )
 
 const (

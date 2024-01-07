@@ -3,11 +3,10 @@ package will_test
 import (
 	"testing"
 
+	keepertest "github.com/GACWR/w3ll-dev-test/testutil/keeper"
+	"github.com/GACWR/w3ll-dev-test/testutil/nullify"
+	"github.com/GACWR/w3ll-dev-test/x/will/types"
 	"github.com/stretchr/testify/require"
-	keepertest "w3ll/testutil/keeper"
-	"w3ll/testutil/nullify"
-	"w3ll/x/will/module"
-	"w3ll/x/will/types"
 )
 
 func TestGenesis(t *testing.T) {

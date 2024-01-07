@@ -24,7 +24,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"w3ll/app"
+	"github.com/GACWR/w3ll-dev-test/app"
 )
 
 // NewRootCmd creates a new root command for w3lld. It is called once in the main function.

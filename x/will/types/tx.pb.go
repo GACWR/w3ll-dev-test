@@ -131,7 +131,7 @@ func init() {
 	proto.RegisterType((*MsgUpdateParamsResponse)(nil), "w3ll.will.MsgUpdateParamsResponse")
 }
 
-func init() { proto.RegisterFile("w3ll/will/tx.proto", fileDescriptor_e6cbd94305d942f0) }
+func init() { proto.RegisterFile("github.com/GACWR/w3ll-dev-test/will/tx.proto", fileDescriptor_e6cbd94305d942f0) }
 
 var fileDescriptor_e6cbd94305d942f0 = []byte{
 	// 315 bytes of a gzipped FileDescriptorProto
@@ -238,7 +238,7 @@ var _Msg_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "w3ll/will/tx.proto",
+	Metadata: "github.com/GACWR/w3ll-dev-test/will/tx.proto",
 }
 
 func (m *MsgUpdateParams) Marshal() (dAtA []byte, err error) {

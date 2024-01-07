@@ -20,9 +20,9 @@ import (
 
 	// this line is used by starport scaffolding # 1
 
-	modulev1 "w3ll/api/w3ll/will/module"
-	"w3ll/x/will/keeper"
-	"w3ll/x/will/types"
+	modulev1 "github.com/GACWR/w3ll-dev-test/api/w3ll/will/module"
+	"github.com/GACWR/w3ll-dev-test/x/will/keeper"
+	"github.com/GACWR/w3ll-dev-test/x/will/types"
 )
 
 var (

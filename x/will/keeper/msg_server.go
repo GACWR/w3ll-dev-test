@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"w3ll/x/will/types"
+	"github.com/GACWR/w3ll-dev-test/x/will/types"
 )
 
 type msgServer struct {

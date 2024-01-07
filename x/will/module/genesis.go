@@ -3,8 +3,8 @@ package will
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"w3ll/x/will/keeper"
-	"w3ll/x/will/types"
+	"github.com/GACWR/w3ll-dev-test/x/will/keeper"
+	"github.com/GACWR/w3ll-dev-test/x/will/types"
 )
 
 // InitGenesis initializes the module's state from a provided genesis state.

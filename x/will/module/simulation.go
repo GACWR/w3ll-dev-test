@@ -8,9 +8,9 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"w3ll/testutil/sample"
-	willsimulation "w3ll/x/will/simulation"
-	"w3ll/x/will/types"
+	"github.com/GACWR/w3ll-dev-test/testutil/sample"
+	willsimulation "github.com/GACWR/w3ll-dev-test/x/will/simulation"
+	"github.com/GACWR/w3ll-dev-test/x/will/types"
 )
 
 // avoid unused import issue

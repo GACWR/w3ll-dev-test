@@ -17,8 +17,8 @@ import (
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	"github.com/stretchr/testify/require"
 
-	"w3ll/x/will/keeper"
-	"w3ll/x/will/types"
+	"github.com/GACWR/w3ll-dev-test/x/will/keeper"
+	"github.com/GACWR/w3ll-dev-test/x/will/types"
 )
 
 func WillKeeper(t testing.TB) (keeper.Keeper, sdk.Context) {

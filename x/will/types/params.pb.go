@@ -65,7 +65,7 @@ func init() {
 	proto.RegisterType((*Params)(nil), "w3ll.will.Params")
 }
 
-func init() { proto.RegisterFile("w3ll/will/params.proto", fileDescriptor_a82ff0624a9fbf10) }
+func init() { proto.RegisterFile("github.com/GACWR/w3ll-dev-test/will/params.proto", fileDescriptor_a82ff0624a9fbf10) }
 
 var fileDescriptor_a82ff0624a9fbf10 = []byte{
 	// 146 bytes of a gzipped FileDescriptorProto
