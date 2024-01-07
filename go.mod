@@ -1,4 +1,5 @@
-module w3ll
+// module w3ll
+module github.com/GACWR/w3ll-dev-test
 
 go 1.21
 
