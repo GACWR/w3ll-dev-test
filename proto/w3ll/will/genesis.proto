@@ -3,9 +3,9 @@ package w3ll.will;
 
 import "amino/amino.proto";
 import "gogoproto/gogo.proto";
-import "w3ll/will/params.proto";
+import "github.com/GACWR/w3ll-dev-test/will/params.proto";
 
-option go_package = "w3ll/x/will/types";
+option go_package = "github.com/GACWR/w3ll-dev-test/x/will/types";
 
 // GenesisState defines the will module's genesis state.
 message GenesisState {

@@ -4,11 +4,11 @@ package w3ll.will;
 import "amino/amino.proto";
 import "gogoproto/gogo.proto";
 
-option go_package = "w3ll/x/will/types";
+option go_package = "github.com/GACWR/w3ll-dev-test/x/will/types";
 
 // Params defines the parameters for the module.
 message Params {
-  option (amino.name) = "w3ll/x/will/Params";
+  option (amino.name) = "github.com/GACWR/w3ll-dev-test/x/will/Params";
   option (gogoproto.equal) = true;
 
   
