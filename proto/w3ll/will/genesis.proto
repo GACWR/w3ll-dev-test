@@ -1,0 +1,17 @@
+syntax = "proto3";
+package w3ll.will;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+import "w3ll/will/params.proto";
+
+option go_package = "w3ll/x/will/types";
+
+// GenesisState defines the will module's genesis state.
+message GenesisState {
+  // params defines all the parameters of the module.
+  Params params = 1 [
+    (gogoproto.nullable) = false,
+    (amino.dont_omitempty) = true
+  ];
+}
